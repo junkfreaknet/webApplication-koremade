@@ -1,42 +1,31 @@
-/*decision width of page*/
+
+/**************************************/
+/*** For mobile device
+     maxmum width 1080px            ***/
+/**************************************/
 @media screen and (max-width: 1080px) {
  
     body {
         width: 980px;
-        /*height: 680px;*/
-        background-color: aqua;
+        font-size: 250%;
+        line-height: 2em;
+        margin: 2em;
     }
 
     aside {
-        width: 480px;
-        background-color: white;
+        background-color: rgb(225, 255, 0);
+        border: solid red thick;
+    }
+    /***
+    button {
+        font-size: 150%;
     }
 
-    a {
-        /*font-size:xx-large;*/
-        /*font-size: 48px;*/
-        font-size: 200%;
-    }
-    /*
-    .size54px {
-
-        font-size: 54px;
-    }
-    .size32px {
-        font-size: 32px;
-    }
-    .size16px {
-
-    }
-    .size16px {
-        color:aqua;
-        font-size: 16px;
-    }
-    .size48px {
-        font-size: 48px;
-    }
-    .aclass {
-        font-size: 54px;
-    }*/
+    input {
+        height: 2.5em;
+    }***/
 
 }
+/*************************************/
+/***END Of FOR MAXIMUM WiDTH 1080px***/
+/*************************************/
