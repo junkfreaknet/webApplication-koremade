@@ -3,14 +3,12 @@
 /*****/
     general screen properties
  **************************************/
-    table {
-        border: double;
-    }
+
 /*** For mobile device
      maxmum width 1080px            ***/
 /**************************************/
 @media screen and (max-width: 1080px) {
- 
+
     body {
         width: 980px;
         font-size: 250%;
@@ -18,7 +16,10 @@
         margin: 2em;
     }
 
-    aside {
+    body main table {
+        border: red thick solid;
+    }
+    aside { 
         background-color: rgb(225, 255, 0);
         border: solid red thick;
     }
