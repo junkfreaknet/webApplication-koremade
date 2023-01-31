@@ -11,6 +11,10 @@
                     echo "<h1>". "PHP". "</h1>"
                 ?>
             </header>
+            <main>
+            </main>
+            <footer>
+            </footer>
         </body>
 
     </html>
