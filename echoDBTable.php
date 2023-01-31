@@ -2,12 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>DB PHP</title>
+        <title>DB PHP TABLE</title>
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
         <header>
-            <h1>PHP DB</h1>
+            <h1>PHP DB TABLE</h1>
         </header>
         
         <main>
@@ -35,11 +35,13 @@
                     echo ("<table>");
 
                     /*** start table header ***/
+                    echo ("<thead>");
                     echo ("<tr>");
                     echo("<th>". "Code". "</th>");
                     echo("<th>". "Name". "</th>");
                     echo("<th>". "Qty". "</th>");
                     echo ("</tr>");
+                    echo ("</thead>");
                     /*** end table header ***/
 
                     while ($each_row=$rst_in->fetch_assoc()){
