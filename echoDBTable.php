@@ -31,9 +31,34 @@
                 $rst_in = $my_connection->query($my_sqlstring);
 
                 if ($rst_in->num_rows>0){
+
+                    echo ("<table>");
+
+                    /*** start table header ***/
+                    echo ("<tr>");
+                    echo("<th>". "Code". "</th>");
+                    echo("<th>". "Name". "</th>");
+                    echo("<th>". "Qty". "</th>");
+                    echo ("</tr>");
+                    /*** end table header ***/
+
                     while ($each_row=$rst_in->fetch_assoc()){
-                     echo($each_row["code"]. ",". $each_row["name"]. ",". $each_row["qty"]. "<br>");   
+
+                     /***echo($each_row["code"]. ",". $each_row["name"]. ",". $each_row["qty"]. "<br>");***/
+
+                     /***start a row***/
+                    echo ("<tr>");
+
+                    echo ("<td>" . $each_row["code"]. "</td>");
+                    echo ("<td>" . $each_row["name"]. "</td>");
+                    echo ("<td>" . $each_row["qty"]. "</td>");
+                    
+                    echo ("</tr>");
+                     /***end a row***/
                     }
+
+                    echo ("</table>");
+
                 }else{
                     echo ("<p>" . "Data is not found." . "/p>");
                 }
