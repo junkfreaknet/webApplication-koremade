@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>DB PHP</title>>
+        <title>DB PHP</title>
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
