@@ -17,8 +17,9 @@
                 const my_HOST = "mysql76.conoha.ne.jp";
                 const my_USER = "zs9ve_junkfreaknet";
                 const my_PASSWORD = "junkfreak6403@@";
-            
-                $my_Connection;
+
+                /* */
+                resource mysql_connect(my_HOST,my_USER,my_PASSWORD);
 
             ?>
             /*****END put from database *****/
