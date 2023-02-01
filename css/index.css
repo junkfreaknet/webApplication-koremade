@@ -1,6 +1,6 @@
 
 /*** general roule ***/
-table {
+table,td {
     color: black;
     border: thick;
 }
