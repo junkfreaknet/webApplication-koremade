@@ -1,8 +1,8 @@
 
-
-/*****/
-    general screen properties
- **************************************/
+/*** general roule ***/
+table {
+    border: thick;
+}
 
 /*** For mobile device
      maxmum width 1080px            ***/
@@ -16,21 +16,10 @@
         margin: 2em;
     }
 
-    body main table {
-        border: red thick solid;
-    }
     aside { 
         background-color: rgb(225, 255, 0);
         border: solid red thick;
     }
-    /***
-    button {
-        font-size: 150%;
-    }
-
-    input {
-        height: 2.5em;
-    }***/
 
 }
 /*************************************/

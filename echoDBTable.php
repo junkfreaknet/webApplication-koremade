@@ -46,8 +46,6 @@
 
                     while ($each_row=$rst_in->fetch_assoc()){
 
-                     /***echo($each_row["code"]. ",". $each_row["name"]. ",". $each_row["qty"]. "<br>");***/
-
                      /***start a row***/
                     echo ("<tr>");
 
