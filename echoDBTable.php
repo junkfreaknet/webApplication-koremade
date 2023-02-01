@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>DB PHP TABLE</title>
-        <link rel="stylesheet" href="./css/index.css">
+        <!---<link rel="stylesheet" href="./css/index.css">--->
+        <link rel="stylesheet" href="./css/table.css">
     </head>
     <body>
         <header>
