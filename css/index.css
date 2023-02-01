@@ -1,14 +1,12 @@
 
-/*** general roule ***/
-
 /*** For mobile device
      maxmum width 1080px            ***/
 /**************************************/
 @media screen and (max-width: 1080px) {
-
-    table,td {
+/***
+    table,td,th {
         border: solid thick black ;
-    }
+    } ***/
     body {
         width: 980px;
         font-size: 250%;
@@ -25,3 +23,11 @@
 /*************************************/
 /***END Of FOR MAXIMUM WiDTH 1080px***/
 /*************************************/
+
+/***
+****    generic roules
+***/
+
+table,td {
+    border: solid red double;
+}
