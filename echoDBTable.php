@@ -35,13 +35,13 @@
                     echo ("<table>". PHP_EOL);
 
                     /*** start table header ***/
-                    echo ("<thead>");
-                    echo ("<tr>");
-                    echo("<th>". "Code". "</th>");
-                    echo("<th>". "Name". "</th>");
-                    echo("<th>". "Qty". "</th>");
-                    echo ("</tr>");
-                    echo ("</thead>");
+                    echo ("<thead>"). PHP_EOL;
+                    echo ("<tr>"). PHP_EOL;
+                    echo("<th>". "Code". "</th>".PHP_EOL);
+                    echo("<th>". "Name". "</th>".PHP_EOL);
+                    echo("<th>". "Qty". "</th>".PHP_EOL);
+                    echo ("</tr>".PHP_EOL);
+                    echo ("</thead>".PHP_EOL);
                     /*** end table header ***/
 
                     while ($each_row=$rst_in->fetch_assoc()){
@@ -49,13 +49,13 @@
                      /***echo($each_row["code"]. ",". $each_row["name"]. ",". $each_row["qty"]. "<br>");***/
 
                      /***start a row***/
-                    echo ("<tr>");
+                    echo ("<tr>".PHP_EOL);
 
-                    echo ("<td>" . $each_row["code"]. "</td>");
-                    echo ("<td>" . $each_row["name"]. "</td>");
-                    echo ("<td>" . $each_row["qty"]. "</td>");
+                    echo ("<td>" . $each_row["code"]. "</td>".PHP_EOL);
+                    echo ("<td>" . $each_row["name"]. "</td>".PHP_EOL);
+                    echo ("<td>" . $each_row["qty"]. "</td>".PHP_EOL);
                     
-                    echo ("</tr>");
+                    echo ("</tr>".PHP_EOL);
                      /***end a row***/
                     }
 
