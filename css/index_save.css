@@ -10,9 +10,6 @@ table,td {
 /**************************************/
 @media screen and (max-width: 1080px) {
 
-    table {
-        border: solid thick black ;
-    }
     body {
         width: 980px;
         font-size: 250%;
