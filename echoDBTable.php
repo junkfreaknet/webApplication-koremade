@@ -32,7 +32,7 @@
 
                 if ($rst_in->num_rows>0){
 
-                    echo ("<table>");
+                    echo ("<table>". PHP_EOL);
 
                     /*** start table header ***/
                     echo ("<thead>");
