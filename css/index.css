@@ -1,16 +1,12 @@
 
 /*** general roule ***/
-table,td {
-    color: black;
-    border: thick;
-}
 
 /*** For mobile device
      maxmum width 1080px            ***/
 /**************************************/
 @media screen and (max-width: 1080px) {
 
-    table {
+    table,td {
         border: solid thick black ;
     }
     body {
