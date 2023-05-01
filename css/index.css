@@ -8,13 +8,15 @@
         border: solid thick black ;
     } ***/
     body {
-        width: 980px;
+        /*width: 980px;*/
+        /*width: 100%;*/
         font-size: 250%;
         line-height: 2em;
         margin: 2em;
     }
 
     aside { 
+        width: 90%;
         background-color: rgb(225, 255, 0);
         border: solid red thick;
     }
@@ -27,7 +29,8 @@
 /***
 ****    generic roules
 ***/
-
+/***
 table,td {
     border: solid red double;
 }
+***/
