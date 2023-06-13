@@ -2,6 +2,13 @@
 /*** For mobile device
      maxmum width 1080px            ***/
 /**************************************/
+
+.hako{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: solid;
+}
 @media screen and (max-width: 1080px) {
 /***
     table,td,th {
